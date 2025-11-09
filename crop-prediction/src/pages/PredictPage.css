@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff9e6;
+}
+
+.header {
+  text-align: center;
+  background: url("../assets/predict-page-image.jpg") no-repeat center center/cover;
+  color: white;
+  padding: 2rem 1rem 1.5rem;
+  position: relative;
+}
+
+.back-link {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.form-container {
+  background-color: white;
+  width: 90%;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.input-group {
+  flex: 1 1 calc(50% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group.full-width {
+  flex: 1 1 100%;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline-color: #4caf50;
+}
+
+.predict-button {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.9rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.predict-button:hover {
+  background-color: #218838;
+
+  .result-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.result-box h2 {
+  color: #2e7d32;
+}
+
+.result-box p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #1b5e20;
+}
+.result-box {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #f0fdf4;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.result-box h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.crop-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+
+.crop-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #2e7d32;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+}
